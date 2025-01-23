@@ -13,7 +13,7 @@
   ```rust
   gift(
       gift_day,
-      /* prefix */if gift_day == 1 && day != 1 {
+      if gift_day == 1 && day != 1 { // prefix 접두사, 1절에서는 and를 표시하지 않음, 2절부터 and를 표시함
           "and"
       } else {
         ""
