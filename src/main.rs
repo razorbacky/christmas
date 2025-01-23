@@ -56,5 +56,5 @@ fn gift(n: u32, prefix: &str) {
         _ => "",
     };
 
-    println!("{prefix}{gift_text}");
+    println!("{prefix}{gift_text}"); // prefix 를 확인하고 prefix와 gift_text를 출력한다.
 }
